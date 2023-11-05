@@ -1,4 +1,4 @@
-import { Brands, CTA, Features1, Features2, Features3, Footer, Header, Hero, Overview, Product, Testimonials } from "./sections";
+import { Brands, CTA, Features1, Features2, Features3, Footer, Header, Hero, Overview, Pricing, Product, Testimonials } from "./sections";
 
 
 function App() {
@@ -12,6 +12,7 @@ function App() {
      <Features2 />
      <Features3 />
      <Product />
+     <Pricing />
      <Testimonials />
      <CTA />
      <Footer />
