@@ -1,19 +1,19 @@
 import images from "./images";
 
 
-export const header = {
+ const header = {
   logo: images.LogoImg,
   btnText: 'Request a demo',
 };
 
-export const nav = [
+ const nav = [
   { name: 'Features', href: '/' },
   { name: 'About us', href: 'about' },
   { name: 'Pricing', href: 'pricing' },
   { name: 'Feedback', href: 'feedback' },
 ];
 
-export const hero = {
+ const hero = {
   title: 'Track your Expenses to Save Money',
   subtitle: 'Helps you to organize your income and expenses',
   btnText: 'Try free demo',
@@ -21,7 +21,7 @@ export const hero = {
   image: images.HeroImg,
 };
 
-export const overview = {
+ const overview = {
   productImg: images.OverviewProductImg,
   brands: [
     {
@@ -47,14 +47,14 @@ export const overview = {
   ],
 };
 
-export const features = {
+ const features = {
   feature1: {
     pretitle: 'Alwalys online',
     title: 'Real-time support with cloud',
     subtitle:
       'Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi, tincidunt vel. Enim ipsum, amet quis ullamcorper eget ut.',
     btnLink: 'Learn more',
-    btnIcon: ArrowRightImg,
+    btnIcon: images.ArrowRightImg,
     image: images.Feature1Img,
   },
   feature2: {
@@ -63,7 +63,7 @@ export const features = {
     subtitle:
       'Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi, tincidunt vel. Enim ipsum, amet quis ullamcorper eget ut.',
     btnLink: 'Learn more',
-    btnIcon: ArrowRightImg,
+    btnIcon: images.ArrowRightImg,
     image: images.Feature2Img,
   },
   feature3: {
@@ -72,12 +72,12 @@ export const features = {
     subtitle:
       'Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi, tincidunt vel. Enim ipsum, amet quis ullamcorper eget ut.',
     btnLink: 'Learn more',
-    btnIcon: ArrowRightImg,
+    btnIcon: images.ArrowRightImg,
     image: images.Feature3Img,
   },
 };
 
-export const product = {
+ const product = {
   title: 'The Product we work with.',
   subtitle:
     'Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim aumsan nisi, tincidunt vel. Enim ipsum, at quis ullamcorper eget ut.',
@@ -103,7 +103,7 @@ export const product = {
   ],
 };
 
-export const pricing = {
+ const pricing = {
   title: 'Choose your flexible plan.',
   cards: [
     {
@@ -111,7 +111,7 @@ export const pricing = {
       title: 'Starter Plan',
       services: [
         { name: 'Store unlimited data' },
-        { name: 'Export to pdf, xls, csv' },
+        { name: ' to pdf, xls, csv' },
         { name: 'Cloud server support' },
       ],
       price: '$9.99',
@@ -124,7 +124,7 @@ export const pricing = {
       title: 'Silver Plan',
       services: [
         { name: 'Store unlimited data' },
-        { name: 'Export to pdf, xls, csv' },
+        { name: ' to pdf, xls, csv' },
         { name: 'Cloud server support' },
       ],
       price: '$19.99',
@@ -137,7 +137,7 @@ export const pricing = {
       title: 'Diamond Plan',
       services: [
         { name: 'Store unlimited data' },
-        { name: 'Export to pdf, xls, csv' },
+        { name: ' to pdf, xls, csv' },
         { name: 'Cloud server support' },
       ],
       price: '$29.99',
@@ -148,7 +148,7 @@ export const pricing = {
   ],
 };
 
-export const testimonials = {
+ const testimonials = {
   title: 'We have millions of best wishers',
   clients: [
     {
@@ -194,7 +194,7 @@ export const testimonials = {
   ],
 };
 
-export const cta = {
+ const cta = {
   title: '20M+ downloaded from 32 different countries',
   subtitle: 'Try demo for 7 days with full features.',
   btnText: 'Try free demo',
@@ -202,7 +202,7 @@ export const cta = {
   img2: images.CtaImg2,
 };
 
-export const footer = {
+ const footer = {
   logo: images.LogoImg,
   links: [
     { name: 'Home', href: '/' },
@@ -229,7 +229,7 @@ export const footer = {
   },
 };
 
-export const copyright = {
+ const copyright = {
   link1: {
     name: 'Privacy & Terms',
     href: '/',
@@ -245,3 +245,21 @@ export const copyright = {
     { icon: images.LinkedinIcon, href: '/' },
   ],
 };
+
+
+
+const data = {
+  header,
+  hero,
+  nav,
+  pricing,
+  product,
+  features,
+  footer,
+  copyright,
+  overview,
+  testimonials,
+  cta
+}
+
+export default data
