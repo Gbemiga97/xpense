@@ -11,6 +11,7 @@ import Feature1Img from '../assets/img/features/feature1-img.svg';
 import Feature2Img from '../assets/img/features/feature2-img.svg';
 import Feature3Img from '../assets/img/features/feature3-img.svg';
 import ArrowRightImg from '../assets/img/features/arrow-right.svg';
+import ArrowCards from '../assets/img/product/cards/arrow.svg'
 import CardIconImg1 from '../assets/img/product/cards/icon1.svg';
 import CardIconImg2 from '../assets/img/product/cards/icon2.svg';
 import CardIconImg3 from '../assets/img/product/cards/icon3.svg';
@@ -41,6 +42,7 @@ export default {
     Feature2Img,
     Feature3Img,
     ArrowRightImg,
+    ArrowCards,
     CardIconImg1,
     CardIconImg2,
     CardIconImg3,

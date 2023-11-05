@@ -3,10 +3,10 @@ import { motion } from "framer-motion"
 
 const Overview = () => {
 
-  const {productImg, brands} = data.overview
+  const {productImg} = data.overview
 
   return (
-    <section className="min-h-[400px] lg:min-h-[712px] bg-overview bg-cover bg-left-top
+    <section className="lg:min-h-[712px] bg-overview bg-cover bg-left-top
     pt-[1.8rem] lg:pt-[87px]">
       <motion.div
       variants={variants.fadeInUp}

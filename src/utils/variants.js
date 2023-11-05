@@ -18,16 +18,7 @@
   },
 };
 
- const staggerAccordionContainer = {
-  initial: {},
-  animate: {
-    transition: {
-      staggerChildren: 0.06,
-      delayChildren: 0.2,
-      type: 'tween',
-    },
-  },
-};
+ 
 
  const staggerFooterContainer = {
   initial: {},
@@ -39,39 +30,9 @@
   },
 };
 
- const boyAnim = {
-  initial: { x: -150, opacity: 0 },
-  animate: {
-    x: 0,
-    opacity: 1,
-    transition: { type: 'spring', duration: 4 },
-  },
-};
 
- const girlAnim = {
-  initial: { x: 900, opacity: 0 },
-  animate: {
-    x: 700,
-    opacity: 1,
-    transition: { type: 'spring', duration: 3 },
-  },
-};
 
- const heroTruckAnim = {
-  initial: { x: -700 },
-  animate: {
-    x: 0,
-    transition: { type: 'spring', duration: 3 },
-  },
-};
-
- const footerTruckAnim = {
-  initial: { x: -700 },
-  animate: {
-    x: 0,
-    transition: { type: 'spring', duration: 2 },
-  },
-};
+ 
 
  const fadeInDown = {
   initial: {
@@ -97,16 +58,16 @@
   },
 };
 
-const fadeUpFunction = (delay = 0) => ({
+const zoomOut = (delay = 0) => ({
   initial: {
-    y: 70,
     opacity: 0,
+    scale: 0.5,
   },
   animate: {
-    y: 0,
+    scale: 1,
     opacity: 1,
-    transition: { type: 'tween',
-    duration: 1.1,
+    transition: { type: 'spring',
+    duration: 1,
     delay
   },
   },
@@ -140,17 +101,12 @@ const fadeUpFunction = (delay = 0) => ({
 const variants = {
   staggerContainer,
   staggerTextContainer,
-  staggerAccordionContainer,
   staggerFooterContainer,
-  boyAnim,
-  girlAnim,
-  heroTruckAnim,
-  footerTruckAnim,
   fadeInDown,
   fadeInUp,
   fadeInLeft,
   fadeInRight,
-  fadeUpFunction
+  zoomOut
 }
 
 export default  variants
