@@ -58,3 +58,12 @@
     @apply text-accent text-xl lg:text-2xl;
   }
 }
+
+
+
+
+.test .swiper-pagination-bullet {
+  background: #23262f;
+  bottom: 20px;
+}
+
